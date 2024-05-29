@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:backgroundTintMode="screen"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="ExtraText"><![CDATA[
+    tools:context=".Login">
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="371dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/knowledgeforge1"
+        android:textAlignment="center"
+        android:textColor="#0B0B0B"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idEdtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:hint="@string/enter_username"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/btn_l"
+        android:rotation="0"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/but" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="253dp"
+        android:layout_height="24dp"
+        android:text="@string/androidproject"
+        android:textAlignment="center"
+        tools:gravity="center_horizontal" />
+
+
+</LinearLayout>
